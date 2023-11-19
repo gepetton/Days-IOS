@@ -17,6 +17,7 @@
 		9D9715632B08FD8A0025EF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715612B08FD8A0025EF98 /* Main.storyboard */; };
 		9D9715652B08FD8B0025EF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715642B08FD8B0025EF98 /* Assets.xcassets */; };
 		9D9715682B08FD8B0025EF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715662B08FD8B0025EF98 /* LaunchScreen.storyboard */; };
+		9DB462642B0A272500C4CBEE /* CalendarSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB462632B0A272500C4CBEE /* CalendarSetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9D9715642B08FD8B0025EF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D9715672B08FD8B0025EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D9715692B08FD8B0025EF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB462632B0A272500C4CBEE /* CalendarSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSetup.swift; sourceTree = "<group>"; };
 		E3BBE48DB0B5FC1B1FE22E85 /* Pods-Days.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days.debug.xcconfig"; path = "Target Support Files/Pods-Days/Pods-Days.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1D9650FF02875C9B30C43B /* Pods-Days.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days.release.xcconfig"; path = "Target Support Files/Pods-Days/Pods-Days.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			children = (
 				9D5455632B0A1F9A00EDC830 /* UserInformationTab */,
 				9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */,
+				9DB462632B0A272500C4CBEE /* CalendarSetup.swift */,
 				9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */,
 				9D97155F2B08FD8A0025EF98 /* ViewController.swift */,
 				9D9715612B08FD8A0025EF98 /* Main.storyboard */,
@@ -239,6 +242,7 @@
 			files = (
 				9D9715602B08FD8A0025EF98 /* ViewController.swift in Sources */,
 				9D97155C2B08FD8A0025EF98 /* AppDelegate.swift in Sources */,
+				9DB462642B0A272500C4CBEE /* CalendarSetup.swift in Sources */,
 				9D5455692B0A1FF500EDC830 /* UserInformationViewController.swift in Sources */,
 				9D97155E2B08FD8A0025EF98 /* SceneDelegate.swift in Sources */,
 			);

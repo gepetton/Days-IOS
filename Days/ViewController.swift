@@ -15,13 +15,13 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     // Do any additional setup after loading the view.
+        
+        // Do any additional setup after loading the view.
+        
+        CalendarSetup.setupCalendar(calendarView)
         calendarView.delegate = self
         calendarView.dataSource = self
-        calendarView.locale = Locale(identifier: "ko_KR")
-        calendarView.appearance.headerDateFormat = "YYYY년 MM월"
-        calendarView.scrollEnabled = true
-        calendarView.scrollDirection = .horizontal
+        
     }
 }
 
