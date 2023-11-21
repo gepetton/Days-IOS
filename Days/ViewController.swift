@@ -20,7 +20,7 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
         calendarView.delegate = self
         calendarView.dataSource = self
         
-    } 
+    }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
             guard let modalPresentView = self.storyboard?.instantiateViewController(identifier: "dateModalViewController") as? dateModalViewController else { return }

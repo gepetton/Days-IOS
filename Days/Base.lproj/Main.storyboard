@@ -74,6 +74,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="u6Q-8p-5jO"/>
                         <segue destination="l49-tR-Y19" kind="relationship" relationship="viewControllers" id="U1g-ZN-Qpt"/>
+                        <segue destination="DKk-2Z-ZDi" kind="relationship" relationship="viewControllers" id="EeM-TL-2Wc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRy-Gl-3Mc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -87,6 +88,16 @@
                     <tabBarItem key="tabBarItem" title="Item" id="hB7-Sl-fbz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVj-91-6Yt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417" y="404"/>
+        </scene>
+        <!--DailyGoals-->
+        <scene sceneID="Y40-Aj-jeH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DailyGoals" id="DKk-2Z-ZDi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="iyr-Nl-Kf7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqQ-hB-jjD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="114" y="404"/>
         </scene>

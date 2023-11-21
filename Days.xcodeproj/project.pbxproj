@@ -14,6 +14,8 @@
 		9D6CA0C12B0B1C9A00E3D57E /* dateModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6CA0C02B0B1C9A00E3D57E /* dateModalViewController.swift */; };
 		9D6CA0CC2B0C3F4900E3D57E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6CA0CB2B0C3F4900E3D57E /* Realm */; };
 		9D6CA0CE2B0C3F4900E3D57E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6CA0CD2B0C3F4900E3D57E /* RealmSwift */; };
+		9D6CA0D12B0C4AC100E3D57E /* DailyGoals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6CA0D02B0C4AC100E3D57E /* DailyGoals.storyboard */; };
+		9D6CA0D52B0C4BB400E3D57E /* DailyGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6CA0D42B0C4BB400E3D57E /* DailyGoalsViewController.swift */; };
 		9D97155C2B08FD8A0025EF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */; };
 		9D97155E2B08FD8A0025EF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */; };
 		9D9715602B08FD8A0025EF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155F2B08FD8A0025EF98 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		9D5455642B0A1FB600EDC830 /* UserInformationTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserInformationTab.storyboard; sourceTree = "<group>"; };
 		9D5455682B0A1FF500EDC830 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
 		9D6CA0C02B0B1C9A00E3D57E /* dateModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateModalViewController.swift; sourceTree = "<group>"; };
+		9D6CA0D02B0C4AC100E3D57E /* DailyGoals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DailyGoals.storyboard; sourceTree = "<group>"; };
+		9D6CA0D42B0C4BB400E3D57E /* DailyGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsViewController.swift; sourceTree = "<group>"; };
 		9D9715582B08FD8A0025EF98 /* Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,15 @@
 			path = UserInformationTab;
 			sourceTree = "<group>";
 		};
+		9D6CA0CF2B0C4A7900E3D57E /* DailyGoals */ = {
+			isa = PBXGroup;
+			children = (
+				9D6CA0D02B0C4AC100E3D57E /* DailyGoals.storyboard */,
+				9D6CA0D42B0C4BB400E3D57E /* DailyGoalsViewController.swift */,
+			);
+			path = DailyGoals;
+			sourceTree = "<group>";
+		};
 		9D97154F2B08FD8A0025EF98 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		9D97155A2B08FD8A0025EF98 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				9D6CA0CF2B0C4A7900E3D57E /* DailyGoals */,
 				9D5455632B0A1F9A00EDC830 /* UserInformationTab */,
 				9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */,
 				9D6CA0C02B0B1C9A00E3D57E /* dateModalViewController.swift */,
@@ -200,6 +214,7 @@
 			files = (
 				9D5455652B0A1FB600EDC830 /* UserInformationTab.storyboard in Resources */,
 				9D9715682B08FD8B0025EF98 /* LaunchScreen.storyboard in Resources */,
+				9D6CA0D12B0C4AC100E3D57E /* DailyGoals.storyboard in Resources */,
 				9D9715652B08FD8B0025EF98 /* Assets.xcassets in Resources */,
 				9D9715632B08FD8A0025EF98 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +275,7 @@
 				9DB462642B0A272500C4CBEE /* CalendarSetup.swift in Sources */,
 				9D5455692B0A1FF500EDC830 /* UserInformationViewController.swift in Sources */,
 				9D97155E2B08FD8A0025EF98 /* SceneDelegate.swift in Sources */,
+				9D6CA0D52B0C4BB400E3D57E /* DailyGoalsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
