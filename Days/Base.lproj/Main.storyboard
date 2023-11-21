@@ -27,12 +27,39 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="folder" catalog="system" id="MRC-Ei-J0w"/>
                     <connections>
-                        <outlet property="calendarView" destination="n03-eL-hRY" id="TIy-TS-e5o"/>
+                        <outlet property="calendarView" destination="n03-eL-hRY" id="GeI-iH-t9x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1040.4580152671756" y="-27.464788732394368"/>
+        </scene>
+        <!--Date Modal View Controller-->
+        <scene sceneID="Vrw-LX-OTI">
+            <objects>
+                <viewController storyboardIdentifier="dateModalViewController" id="9IL-Rr-Rjj" customClass="dateModalViewController" customModule="Days" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rP1-Em-bre">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sa-Cv-qtm">
+                                <rect key="frame" x="72" y="326" width="278" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EXf-Lt-BPW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="5sa-Cv-qtm" id="6qP-RJ-dm3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="otS-el-lfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1919.8473282442746" y="-27.464788732394368"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="77c-MW-B79">
