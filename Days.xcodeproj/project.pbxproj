@@ -18,10 +18,11 @@
 		9D6CA0D52B0C4BB400E3D57E /* DailyGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6CA0D42B0C4BB400E3D57E /* DailyGoalsViewController.swift */; };
 		9D97155C2B08FD8A0025EF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */; };
 		9D97155E2B08FD8A0025EF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */; };
-		9D9715602B08FD8A0025EF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155F2B08FD8A0025EF98 /* ViewController.swift */; };
+		9D9715602B08FD8A0025EF98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97155F2B08FD8A0025EF98 /* MainViewController.swift */; };
 		9D9715632B08FD8A0025EF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715612B08FD8A0025EF98 /* Main.storyboard */; };
 		9D9715652B08FD8B0025EF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715642B08FD8B0025EF98 /* Assets.xcassets */; };
 		9D9715682B08FD8B0025EF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9715662B08FD8B0025EF98 /* LaunchScreen.storyboard */; };
+		9DB3A06C2B15C5AD00873C85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3A06B2B15C5AD00873C85 /* LoginViewController.swift */; };
 		9DB462642B0A272500C4CBEE /* CalendarSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB462632B0A272500C4CBEE /* CalendarSetup.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +50,12 @@
 		9D9715582B08FD8A0025EF98 /* Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D97155F2B08FD8A0025EF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D97155F2B08FD8A0025EF98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9D9715622B08FD8A0025EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D9715642B08FD8B0025EF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D9715672B08FD8B0025EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D9715692B08FD8B0025EF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB3A06B2B15C5AD00873C85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9DB462632B0A272500C4CBEE /* CalendarSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSetup.swift; sourceTree = "<group>"; };
 		E3BBE48DB0B5FC1B1FE22E85 /* Pods-Days.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days.debug.xcconfig"; path = "Target Support Files/Pods-Days/Pods-Days.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1D9650FF02875C9B30C43B /* Pods-Days.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days.release.xcconfig"; path = "Target Support Files/Pods-Days/Pods-Days.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,9 +126,10 @@
 				9D5455632B0A1F9A00EDC830 /* UserInformationTab */,
 				9D97155B2B08FD8A0025EF98 /* AppDelegate.swift */,
 				9D6CA0C02B0B1C9A00E3D57E /* dateModalViewController.swift */,
+				9DB3A06B2B15C5AD00873C85 /* LoginViewController.swift */,
 				9DB462632B0A272500C4CBEE /* CalendarSetup.swift */,
 				9D97155D2B08FD8A0025EF98 /* SceneDelegate.swift */,
-				9D97155F2B08FD8A0025EF98 /* ViewController.swift */,
+				9D97155F2B08FD8A0025EF98 /* MainViewController.swift */,
 				9D9715612B08FD8A0025EF98 /* Main.storyboard */,
 				9D9715642B08FD8B0025EF98 /* Assets.xcassets */,
 				9D9715662B08FD8B0025EF98 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				9D9715562B08FD8A0025EF98 /* Resources */,
 				DBE5040E580DF72D96974F5A /* [CP] Embed Pods Frameworks */,
 				9D5455612B08FE3700EDC830 /* Embed Frameworks */,
+				263FC223E6FDA5A8C0861187 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +227,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		263FC223E6FDA5A8C0861187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Days/Pods-Days-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Days/Pods-Days-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Days/Pods-Days-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4B89A6D8EAA8B662B2F4542F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,9 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6CA0C12B0B1C9A00E3D57E /* dateModalViewController.swift in Sources */,
-				9D9715602B08FD8A0025EF98 /* ViewController.swift in Sources */,
+				9D9715602B08FD8A0025EF98 /* MainViewController.swift in Sources */,
 				9D97155C2B08FD8A0025EF98 /* AppDelegate.swift in Sources */,
 				9DB462642B0A272500C4CBEE /* CalendarSetup.swift in Sources */,
+				9DB3A06C2B15C5AD00873C85 /* LoginViewController.swift in Sources */,
 				9D5455692B0A1FF500EDC830 /* UserInformationViewController.swift in Sources */,
 				9D97155E2B08FD8A0025EF98 /* SceneDelegate.swift in Sources */,
 				9D6CA0D52B0C4BB400E3D57E /* DailyGoalsViewController.swift in Sources */,

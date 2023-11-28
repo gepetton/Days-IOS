@@ -7,4 +7,6 @@ target 'Days' do
 
   # Pods for Days
 
+	pod 'KakaoSDK'
+
 end
