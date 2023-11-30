@@ -11,6 +11,7 @@ import FSCalendar
 class MainViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate, FSCalendarDelegateAppearance{
     
     @IBOutlet weak var calendarView: FSCalendar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

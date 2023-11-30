@@ -9,6 +9,11 @@ import UIKit
 import RealmSwift
 import KakaoSDKCommon
 import KakaoSDKAuth
+import FirebaseCore
+import Firebase
+import FirebaseAppCheckInterop
+import FirebaseCoreInternal
+import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         KakaoSDK.initSDK(appKey: "ee6940a6f279c0034e358d6b58b0c93f")
         return true
+        
     }
     // MARK: UISceneSession Lifecycle
 
@@ -34,9 +40,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if (AuthApi.isKakaoTalkLoginUrl(url)) {
             return AuthController.handleOpenUrl(url: url)
         }
+        if GIDSignIn.sharedInstance.handle(url){
+            return true
+        }
 
         return false
     }
+        
     
 }
 

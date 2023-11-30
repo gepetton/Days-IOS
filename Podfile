@@ -6,7 +6,9 @@ target 'Days' do
   pod 'FSCalendar'
 
   # Pods for Days
-
+	pod 'Firebase/Auth'
+	pod 'GoogleSignIn'
 	pod 'KakaoSDK'
+
 
 end

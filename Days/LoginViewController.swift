@@ -4,12 +4,11 @@
 //
 //  Created by shyn on 11/28/23.
 //
-
 import UIKit
 import KakaoSDKCommon
 import KakaoSDKAuth
 import KakaoSDKUser
-
+import GoogleSignIn
 
 
 class LoginViewController: UIViewController {
@@ -19,6 +18,20 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func googleLoginButton(_ sender: UIButton) {
+        GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
+            guard error == nil else { return }
+            self.presentToMain()
+            // If sign in succeeded, display the app's main content View.
+          }
+    }
+    
+    
+    
+    
+    
     @IBAction func kakaoLoginButtonTouchUpInside(_ sender: UIButton) {
         if (UserApi.isKakaoTalkLoginAvailable()) {
             
