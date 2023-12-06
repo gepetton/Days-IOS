@@ -10,15 +10,12 @@ import KakaoSDKAuth
 import KakaoSDKUser
 import GoogleSignIn
 
+class LoginViewController: UIViewController{
 
-class LoginViewController: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    
     
     @IBAction func googleLoginButton(_ sender: UIButton) {
         GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
@@ -27,10 +24,6 @@ class LoginViewController: UIViewController {
             // If sign in succeeded, display the app's main content View.
           }
     }
-    
-    
-    
-    
     
     @IBAction func kakaoLoginButtonTouchUpInside(_ sender: UIButton) {
         if (UserApi.isKakaoTalkLoginAvailable()) {
@@ -63,10 +56,22 @@ class LoginViewController: UIViewController {
         }
     }
     func presentToMain() {
-        guard let SecondViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as? MainViewController else { return }
+        /*guard let SecondViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as? MainViewController else { return }
         SecondViewController.modalPresentationStyle = UIModalPresentationStyle.fullScreen
         //MainViewController.modalPresentationStyle = .fullScreen
         self.present(SecondViewController, animated: true, completion: nil)
+         */
+        // ...
+        // after login is done, maybe put this in the login web service completion block
+
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+        
+        // This is to get the SceneDelegate object from your view controller
+        // then call the change root view controller function to change to main tab bar
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+    
     }
     
 }
+    

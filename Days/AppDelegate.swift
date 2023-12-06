@@ -9,10 +9,6 @@ import UIKit
 import RealmSwift
 import KakaoSDKCommon
 import KakaoSDKAuth
-import FirebaseCore
-import Firebase
-import FirebaseAppCheckInterop
-import FirebaseCoreInternal
 import GoogleSignIn
 
 @main
@@ -43,7 +39,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if GIDSignIn.sharedInstance.handle(url){
             return true
         }
-
         return false
     }
         

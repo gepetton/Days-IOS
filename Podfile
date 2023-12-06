@@ -9,6 +9,6 @@ target 'Days' do
 	pod 'Firebase/Auth'
 	pod 'GoogleSignIn'
 	pod 'KakaoSDK'
-
-
+	pod 'naveridlogin-sdk-ios'
+	pod 'Alamofire'
 end
