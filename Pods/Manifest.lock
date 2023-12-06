@@ -88,17 +88,20 @@ PODS:
     - KakaoSDKCommon/Common (= 2.19.0)
   - KakaoSDKUser (2.19.0):
     - KakaoSDKAuth (= 2.19.0)
-  - naveridlogin-sdk-ios (4.2.0)
   - PromisesObjC (2.3.1)
+  - Realm (10.44.0):
+    - Realm/Headers (= 10.44.0)
+  - Realm/Headers (10.44.0)
+  - RealmSwift (10.44.0):
+    - Realm (= 10.44.0)
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
-  - Alamofire
   - Firebase/Auth
   - FSCalendar
   - GoogleSignIn
   - KakaoSDK
-  - naveridlogin-sdk-ios
+  - RealmSwift
 
 SPEC REPOS:
   trunk:
@@ -126,8 +129,9 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
-    - naveridlogin-sdk-ios
     - PromisesObjC
+    - Realm
+    - RealmSwift
     - RecaptchaInterop
 
 SPEC CHECKSUMS:
@@ -155,10 +159,11 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 9ac8cbc6e396a3e4d7d66099ba22ffbf3095d8ca
   KakaoSDKTemplate: bb6cc31aec26a7f876fb66ee4c8882f9ce1ca2d5
   KakaoSDKUser: f21d7c3baf7cf2d08784cafc97aa9d49f2141624
-  naveridlogin-sdk-ios: 03fa42741249ab10b804f6b2574b56b6d89045ba
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  Realm: 0419a32457873acb720df25bf1d658df36967cf2
+  RealmSwift: 352f85c018b4d0efe961974bfa95bf7a30e079f6
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 72d48c630804865a2a3237e0b6685a121c2dc57b
+PODFILE CHECKSUM: 5853af9c27ef6e36ce2bf011bd11eab0adf23bba
 
 COCOAPODS: 1.14.3
